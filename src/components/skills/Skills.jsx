@@ -26,7 +26,7 @@ const Skills = () => {
 
   const ref = useRef();
 
-  const isInView = useInView(ref, { margin: "-50px" }) ;//animation start from -100px height 
+  const isInView = useInView(ref, { margin: "-50px" });//animation start from -100px height 
 
   return (
     <motion.div
@@ -48,11 +48,11 @@ const Skills = () => {
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/people.webp" alt="" />
-          <h1><motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas</h1>
+          <h1><motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas</h1>
 
         </div>
         <div className="title">
-          <h1><motion.b whileHover={{color:"red"}}>For Your</motion.b> Business</h1>
+          <h1><motion.b whileHover={{ color: "red" }}>For Your</motion.b> Business</h1>
           <button>What I did so far</button>
         </div>
       </motion.div>
