@@ -62,7 +62,7 @@ function Hero() {
                 Full Stack Web & App Developer
             </motion.div>
             <motion.div className="imageContainer">
-                <motion.img src="/hero1.png" alt=""  initial={{ opacity: 0 }} animate={{ opacity: 1, offset: 0.5, duration: 3 , transition: { type:"spring" } }} />
+                <motion.img src="/hero111.png" alt=""  initial={{ opacity: 0 }} animate={{ opacity: 1, offset: 0.5, duration: 3 , transition: { type:"spring" } }} />
             </motion.div>
         </div>
     )
