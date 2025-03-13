@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import { useRef } from "react";
 import "./portfolio.scss"
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
+import Card from "../ProjectCard/Card.jsx";
 
 const items = [
     {
@@ -9,26 +11,27 @@ const items = [
         img: "https://images.pexels.com/photos/3238529/pexels-photo-3238529.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corrupti. "
     },
-    {
-        id: 2,
-        title: "Rn app",
-        img: "https://images.pexels.com/photos/3238529/pexels-photo-3238529.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corrupti. "
-    },
-    {
-        id: 3,
-        title: "Blog app",
-        img: "https://images.pexels.com/photos/3238529/pexels-photo-3238529.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corrupti. "
-    },
-    {
-        id: 4,
-        title: "React Commerce",
-        img: "https://images.pexels.com/photos/3238529/pexels-photo-3238529.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corrupti. "
-    },
+    // {
+    //     id: 2,
+    //     title: "Rn app",
+    //     img: "https://images.pexels.com/photos/3238529/pexels-photo-3238529.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    //     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corrupti. "
+    // },
+    // {
+    //     id: 3,
+    //     title: "Blog app",
+    //     img: "https://images.pexels.com/photos/3238529/pexels-photo-3238529.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    //     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corrupti. "
+    // },
+    // {
+    //     id: 4,
+    //     title: "React Commerce",
+    //     img: "https://images.pexels.com/photos/3238529/pexels-photo-3238529.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+    //     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corrupti. "
+    // },
 ];
 
+// eslint-disable-next-line react/prop-types
 const Single = ({ item }) => {
 
     const ref = useRef()
@@ -77,9 +80,11 @@ export default function Portfolio() {
                 <h1>My Works</h1>
                 <motion.div style={{ scaleX: scaleX }} className="progressBar"></motion.div>
             </div>
-            {items.map(item => {
-                <Single item={item} key={item.id} />
-            })}
+            {items.map(item => (
+                // <Single item={item} key={item.id} />
+                <Card image={item.img} desc={item.desc} title={item.title} key={item.id} />
+            ))}
         </div>
     )
 }
+

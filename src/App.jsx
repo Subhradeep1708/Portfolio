@@ -1,3 +1,4 @@
+import './index.css';
 import './app.scss'
 import Contact from './components/contact/Contact';
 import Hero from './components/hero/Hero';
@@ -27,7 +28,6 @@ const App = () => {
       <section>
         <Portfolio />
       </section>
-
       <section id='Contact'><Contact /></section>
 
     </div>
