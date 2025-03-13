@@ -60,25 +60,25 @@ const Skills = () => {
       <motion.div className="listContainer" variants={variants}>
 
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>Blah</h2>
+          <h2>Project 1</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vero, ipsa architecto a aspernatur cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero illum inventore consequatur ex doloribus animi, quaerat placeat rerum at rem aut esse cupiditate impedit.
           </p>
           <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>Blah</h2>
+          <h2>Project 2</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vero, ipsa architecto a aspernatur cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero illum inventore consequatur ex doloribus animi, quaerat placeat rerum at rem aut esse cupiditate impedit.
           </p>
           <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>Blah</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vero, ipsa architecto a aspernatur cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero illum inventore consequatur ex doloribus animi, quaerat placeat rerum at rem aut esse cupiditate impedit.
+          <h2>Project 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vero, ipsa architecto a aspernatur cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <button>Go</button>
         </motion.div>
         <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-          <h2>Blah</h2>
+          <h2>Project 4</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vero, ipsa architecto a aspernatur cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero illum inventore consequatur ex doloribus animi, quaerat placeat rerum at rem aut esse cupiditate impedit.
           </p>
           <button>Go</button>

@@ -17,7 +17,7 @@ const Navbar = () => {
                 >SUBHRADEEP SARDAR</motion.span>
                 <div className="social">
                     <a href="https://www.facebook.com/profile.php?id=100092511189060"><img src="/facebook.png" alt="" /></a>
-                    <a href="#"><img src="/instagram.png" alt="" /></a>
+                    <a href="https://www.instagram.com/sardar_subhradeep?igsh=MTRjeGh5aHR0bWVtcg=="><img src="/instagram.png" alt="" /></a>
                     <a href="https://github.com/Subhradeep1708"><img src="/github-mark-white.png" alt="" /></a>
                     <a href="https://www.linkedin.com/in/subhradeep-sardar"><img src="/In-Blue-21@2x.png" alt="" /></a>
                 </div>
